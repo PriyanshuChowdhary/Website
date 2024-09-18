@@ -1,0 +1,119 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3e7;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #a7cd47;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+header nav {
+    margin-top: 15px;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+header nav ul li a {
+    color: white;
+    font-weight: bold;
+}
+
+/* Container for main content */
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+/* Sidebar (Menu) */
+aside {
+    width: 25%;
+    background-color: #d6e9b4;
+    padding: 20px;
+}
+
+.menu h2, .block h2 {
+    background-color: #a7cd47;
+    padding: 10px;
+    color: white;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul li {
+    padding: 5px 0;
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+}
+
+.block {
+    margin-top: 20px;
+    background-color: #f3f3e7;
+    padding: 10px;
+}
+
+/* Main Content Area */
+.content {
+    width: 75%;
+    padding-left: 20px;
+}
+
+.content .gallery, .content .subscription, .content .other-services {
+    margin-bottom: 20px;
+}
+
+.content h2 {
+    color: #a7cd47;
+}
+
+button {
+    background-color: #a7cd47;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8bb53d;
+}
+
+/* Footer */
+footer {
+    background-color: #a7cd47;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
